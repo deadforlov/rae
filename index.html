@@ -24,7 +24,7 @@
             width: 100%;
         }
 
-        .image-container { /* Изменено с video-container на image-container */
+        .video-container {
             position: absolute;
             top: 0;
             left: 0;
@@ -33,7 +33,7 @@
             overflow: hidden;
         }
 
-        .image-container img { /* Изменено с video на img */
+        .video-container video {
             width: 100%;
             height: 100%;
             object-fit: cover;
@@ -158,7 +158,7 @@
                 padding: 15px;
             }
 
-            .image-container img { /* Изменено с video на img */
+            .video-container video {
                 object-fit: cover;
             }
         }
@@ -175,7 +175,7 @@
                 padding: 12px;
             }
 
-            .image-container img { /* Изменено с video на img */
+            .video-container video {
                 object-fit: cover;
             }
         }
@@ -184,7 +184,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-    <div class="image-container">         <img src="https://github.com/deadforlov/rae/blob/main/aifaceswap-7298d5ab2d6e721bf5a857a4f5883b9d.jpg?raw=true" alt="Фоновое изображение Rae">     </div>
+    <div class="video-container">
+        <img src="https://github.com/deadforlov/rae/blob/main/aifaceswap-7298d5ab2d6e721bf5a857a4f5883b9d.jpg?raw=true" alt="Фоновое изображение Rae">
+    </div>
 
     <div class="container">
         <div class="neon-text">Rae</div>
